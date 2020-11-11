@@ -6,7 +6,11 @@ import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
 import SearchIcon from '@material-ui/icons/Search';
 
-
+/**
+ * makeStyles pass in cb function
+ * cb function pass in theme that has all default config
+ * and return an object
+ */
 const useStyles = makeStyles(theme => ({
     root: {
         backgroundColor: '#fff',

@@ -6,6 +6,9 @@ import Header from "../components/Header";
 import PageHeader from '../components/PageHeader';
 import PeopleOutlineTwoToneIcon from '@material-ui/icons/PeopleOutlineTwoTone';
 
+/**
+ * CUSTOMIZED THEME
+ */
 const theme = createMuiTheme({
   palette: {
     primary: {
@@ -42,6 +45,9 @@ const useStyles = makeStyles({
   }
 })
 
+/**
+ * Apply customize theme to appliction
+ */
 function App() {
   const classes = useStyles();
 
