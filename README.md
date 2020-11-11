@@ -12,8 +12,15 @@
   - Material-UI color scheme
     https://material-ui.com/customization/color/#color 
 
+  - Material-UI default theme
+    https://material-ui.com/customization/default-theme/
+
 ### 2. JSS plug-in  
+  - JSS is an authoring tool for CSS which allows you to use JavaScript to describe styles in a declarative, conflict-free and reusable way. It can compile in the browser, server-side or at build time in Node.
     https://cssinjs.org/plugins/?v=v10.4.0 
-    JSS is an authoring tool for CSS which allows you to use JavaScript to describe styles in a declarative, conflict-free and reusable way. It can compile in the browser, server-side or at build time in Node.
+
+  - Pseudo and Nested Selectors
+    https://cssinjs.org/jss-plugin-nested/?v=v10.4.0
+    
     
   
