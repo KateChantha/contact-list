@@ -23,6 +23,10 @@ const useStyles = makeStyles(theme => ({
     }
 }))
 
+/**
+ * @desc reusable component 
+ * @param {*} props pass to children in order to dynamically display data 
+ */
 export default function PageHeader(props) {
 
     const classes = useStyles();
