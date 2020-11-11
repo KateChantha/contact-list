@@ -23,6 +23,7 @@ const theme = createMuiTheme({
       default: "#f4f5fd"
     },
   },
+  // overide Appbar at root to have shadow
   overrides:{
     MuiAppBar:{
       root:{
@@ -30,6 +31,7 @@ const theme = createMuiTheme({
       }
     }
   },
+  // style overide props at the theme level
   props:{
     MuiIconButton:{
       disableRipple:true
